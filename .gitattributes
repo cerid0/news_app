@@ -1,7 +1,9 @@
-# Auto detect text files and perform LF normalization
+# Dosyaları otomatik algıla ve satır sonlarını normalize et
+* text=auto
+
+# Platform klasörlerini dil istatistiklerinden muaf tut
 android/* linguist-vendored
 ios/* linguist-vendored
 windows/* linguist-vendored
 linux/* linguist-vendored
 macos/* linguist-vendored
-* text=auto
