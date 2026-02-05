@@ -7,7 +7,6 @@ mixin NewsMixin {
   // Bu mixin, sadece State sınıflarında kullanılabilecek şekilde kısıtlanabilir
 
   Future<void> fetchNews(BuildContext context, String category) {
-    // Provider'a eklediğin o "tek satırlık" fonksiyonu burada çağırıyoruz
     return context.read<NewsProvider>().loadCurrentNews(context, category);
   }
 }

@@ -59,7 +59,33 @@ class _HomeScreenState extends State<HomeScreen> with NewsMixin {
   }
 
   Widget _buildCategoryList() {
-    final categories = ['arts', 'science', 'technology', 'world', 'politics'];
+    final categories = [
+      'arts',
+      'automobiles',
+      'books/review',
+      'business',
+      'fashion',
+      'food',
+      'health',
+      'home',
+      'insider',
+      'magazine',
+      'nyregion',
+      'obituaries',
+      'opinion',
+      'politics',
+      'realestate',
+      'science',
+      'sports',
+      'sundayreview',
+      'technology',
+      'theater',
+      't-magazine',
+      'travel',
+      'upshot',
+      'us',
+      'world',
+    ];
     return SizedBox(
       height: 60,
       child: ListView.builder(

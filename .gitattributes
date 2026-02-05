@@ -3,7 +3,7 @@
 
 # Platform klasörlerini dil istatistiklerinden muaf tut
 android/* linguist-vendored
-ios/* linguist-vendored
+ios/* linguist-vendoregit statusd
 windows/* linguist-vendored
 linux/* linguist-vendored
 macos/* linguist-vendored
